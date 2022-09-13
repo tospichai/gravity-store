@@ -3,9 +3,23 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Oswald", "Mitr", sans-serif;
+  font-family: "Prompt", sans-serif;
   background-color: #cfcccd;
+  background-image: url("background.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  -webkit-backdrop-filter: blur(6px); /* Use for Safari 9+, Edge 17+ (not a mistake) and iOS Safari 9.2+ */
+  backdrop-filter: blur(6px);
 }
+
+ืnav {
+  font-family: "Oswald", sans-serif;
+}
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 40;
+}
+
+.font-extrabold {
+  font-family: "Oswald", sans-serif;
 }
