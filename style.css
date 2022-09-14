@@ -10,6 +10,7 @@ body {
   background-attachment: fixed;
   -webkit-backdrop-filter: blur(6px); /* Use for Safari 9+, Edge 17+ (not a mistake) and iOS Safari 9.2+ */
   backdrop-filter: blur(6px);
+  position: relative;
 }
 
 ืnav {
@@ -22,4 +23,29 @@ body {
 
 .font-extrabold {
   font-family: "Oswald", sans-serif;
+}
+
+#brand img {
+  filter: brightness(0);
+}
+
+.slick-next {
+  right: 5px!important;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 5px!important;
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    color: black!important;
+}
+
+.slider img {
+  width: 100%;
+  object-fit: cover;
 }
